@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>This is my little monster</h1>
+
+This is my little monster. This "drawing" is coded using only  html/css3 combination. No images or other graphic files are used!
+
+<br />
+<br />
+
+
+<i class="tail"></i>
+<i class="body">
+    <i class="eye">
+        <i class="inside_eye"></i>
+    </i>
+    <i class="eye">
+        <i class="inside_eye"></i>
+    </i>
+    
+    <i class="mouth">
+        <i class="tongue"></i>
+    </i>
+</i>
+
+<i class="foot">
+    <i class="thumb"></i>
+    <i class="thumb"></i>
+    <i class="thumb"></i>
+</i>
+
+
+<i class="foot2">
+    <i class="thumb"></i>
+    <i class="thumb"></i>
+    <i class="thumb"></i>
+</i>
+
+
+<i class="candy"></i>
+
+<style>
+    .body{
+    width: 98px;
+    height: 157px;
+    position: relative;
+    border-radius: 4.35em 4.35em 0.35em 0.35em;
+    background-color: #774C00;
+    display: -webkit-box;
+    margin-left:30px;
+        
+    box-shadow: -2px 3px 11px #111110;
+}
+.tail{
+    width: 98px;
+    height: 81px;
+    border-radius: 80px / 100px;
+    background-color: #774C00;
+    display: -webkit-box;
+    position: absolute;
+    margin-top: 76px;
+    
+    box-shadow: -2px 3px 11px #111110;
+}
+.tail:after{
+    content: "";
+    width: 81px;
+    height: 59px;
+    border-radius: 80px / 100px;
+    background-color: white;
+    display: -webkit-box;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 16px;
+}
+.eye{
+    width: 20px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin-left:20px;
+    margin-top:31px;
+    box-shadow: -2px 3px 11px #111110;
+}
+
+.inside_eye{
+    width: 12px;
+    height: 18px;
+    border-radius: 100px;
+    background-color: rgb(0, 143, 255);
+    display: inline-block;
+    position: relative;
+    margin-left: 6px;
+}
+
+.mouth{
+    width: 62px;
+    height: 83px;
+    border-radius: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 6px;
+    -webkit-transform: rotate(71deg);
+    margin-left: 20px;
+    border: solid 1px gray;
+}
+.tongue{
+    width: 41px;
+    height: 54px;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    margin-left: 26px;
+    margin-top: 16px;
+    -webkit-transform: skew(-17deg);
+}
+.candy{
+    height: 0px;
+    border-right: 10px solid yellow;
+    border-top: 10px solid blue;
+    border-left: 10px solid red;
+    border-bottom: 10px solid purple;
+    border-radius: 10px;
+    position:absolute;
+    margin-left: 137px;
+    margin-top: -159px;
+}
+.candy:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 9px solid black;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: -10px;
+}
+.candy:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 9px solid black;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    margin-left: 9px;
+    margin-top: -9px;
+}
+
+.thumb{
+    width: 7px;
+    height: 13px;
+    border-radius: 4.35em 4.35em 0.35em 0.35em;
+    background-color: #AF7B1E;
+    border: 1px solid black;
+    display: inline;
+    float: left;
+}
+
+
+.foot{
+    margin-top: -11px;
+    position: absolute;
+    margin-left: 52px;
+}
+.foot2{
+    margin-top: -11px;
+    position: absolute;
+    margin-left: 93px;
+}	
+</style>
+
+</body>
+</html>
+

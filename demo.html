@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Vedran Stankoviæ">
+	<title>Vedran's demo for HTML5</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<header>
+	   <h1>This is my demo for HTML5 ;)</h1>
+</header>
+<nav>
+  <a target="_blank" href="http://www.vedranstankovic.com">See my page</a> |
+</nav>
+<p>For best effect do not forget to see <mark>source code</mark> of this demo page. Source code will show you my usage of HTML5</p>
+<article>
+	
+	<details>
+		<summary>Here goes Summary of this element, <span class="linked">click here</span></summary>
+		<p> And here you can say much more, this p element is hidden unless visitor decide to read it.</p>
+	</details>
+	
+	 
+	<video width="320" height="240" controls="controls">
+	
+	  <source src="http://e96f99246d14dc3485a8-4e90d59ac3daa4f41129e841c61d8105.r61.cf1.rackcdn.com/movie.mp4" type="video/mp4" />
+		Your browser does not support the video tag.
+	</video>
+	<p>Above you can watch video, this is also new HTML5 feature. Before, video content often did cause headaches to web developers.</p>
+	<p>But you can also include audio on same way</p>
+
+<form action="#">
+  HTML 5 has introduced some new changes to form elements also, see for example this input type - color: <input type="color" name="favcolor" /><br />
+  Or this one, date: <input type="date" name="bday" /> <br />
+  Or even Encryption (woow!): <keygen name="security" />
+</form>
+
+<p>Progress bars were also a big problem for html programmers but see this:</p>
+<meter class="bars" id="firstProgress" value="3" min="0" max="10">3 out of 10</meter><br />
+<meter class="bars" id="secondProgress" value="0.7">70%</meter>
+above is meter element, but you can also use progress element, as shown here:
+<progress id="progress" value="22" max="100"></progress>
+
+<p>
+	And it can even be dynamcly changed by javascript.
+	To see that click here: <button onclick="document.getElementById('firstProgress').setAttribute('value', '9');">Change first bar!</button>
+	Or here: <button onclick="document.getElementById('secondProgress').setAttribute('value', '0.2');">Second bar</button>
+	Or here: <button onclick="document.getElementById('progress').setAttribute('value', '50');">Progress element</button>
+</p>
+</article>
+
+
+	<footer><p>This demo is created by Vedran stankovic at <time>15:34</time> on some sunny day.</p></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+	font-family: 'Happy Monkey', cursive;
+}
+
+.linked{
+	text-decoration:underline; 
+	cursor: pointer;
+	color: blue;
+}
